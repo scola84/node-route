@@ -1,0 +1,31 @@
+{
+  "name": "@scola/view-route",
+  "version": "0.0.0",
+  "description": "View Route",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scola84/node-view-route.git"
+  },
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "browserify": {
+    "transform": [
+      [
+        "babelify", {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0"
+  },
+  "dependencies": {
+    "@scola/di": "^2.0.0",
+    "@scola/events": "^1.1.2"
+  }
+}
