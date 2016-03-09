@@ -1,11 +1,11 @@
 {
-  "name": "@scola/view-route",
+  "name": "@scola/route",
   "version": "0.0.0",
-  "description": "View Route",
+  "description": "Routing",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scola84/node-view-route.git"
+    "url": "git+https://github.com/scola84/node-route.git"
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
