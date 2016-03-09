@@ -1,6 +1,6 @@
 {
   "name": "@scola/route",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Routing",
   "main": "index.js",
   "repository": {
@@ -12,7 +12,8 @@
   "browserify": {
     "transform": [
       [
-        "babelify", {
+        "babelify",
+        {
           "presets": [
             "es2015"
           ]
